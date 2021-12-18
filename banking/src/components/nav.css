@@ -1,0 +1,38 @@
+/* :root{
+    
+} */
+nav{
+    display: flex;
+    justify-content:space-around;
+    margin:0;
+    background-color: #F2B705;
+}
+
+span{
+    display: flex;
+    justify-content:flex-end;
+    gap: 25px;
+}
+.navActive{
+    border-bottom: 4px solid #2E038C;
+    color: #2E038C;
+    text-decoration: none;
+    align-self: center;
+    font-size: 1.5rem;
+    line-height: 5rem;
+    border-radius: 3px;
+}
+.links{
+    color: #2E038C ;
+    text-decoration: none;
+    align-self: center;
+    font-size: 1.5rem;
+    line-height: 5rem;
+}
+.links:hover{
+    background-color: #eca957;
+    /* padding: ; */
+}
+
+
+
